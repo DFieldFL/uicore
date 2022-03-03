@@ -1354,7 +1354,7 @@ type HarnessIconName =
   | 'zoom-in'
   | 'zoom-out'
 
-const HarnessIcons: KVO<FunctionComponent<ElementType>> = {
+const HarnessIcons: KVO<ElementType> = {
   Edit: Edit,
   Inline: Inline,
   Options: Options,
